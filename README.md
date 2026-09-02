@@ -1,142 +1,71 @@
-# Khipu ML — Structural Pattern Mining in Inka Khipus
+# khipu-ml
 
-![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+Machine learning on Inka khipus — knotted-cord records of the Inka state that remain undeciphered.
 
-**Paper:** [arXiv:2607.00185](https://arxiv.org/abs/2607.00185) (cs.CL)
-**Author:** Maria Contreras (UPC, Lima)
-**Code:** [GitHub](https://github.com/mcontrerasmalpar-pixel/khipu-ml) · [Kaggle](https://www.kaggle.com/code/macmaky/khipu-ml)
-**Dataset:** [Open Khipu Repository](https://doi.org/10.5281/zenodo.18025748)
+[![arXiv](https://img.shields.io/badge/arXiv-2607.00185-b31b1b.svg)](https://arxiv.org/abs/2607.00185)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
+[![Kaggle](https://img.shields.io/badge/Kaggle-notebook-20BEFF.svg)](https://www.kaggle.com/code/macmaky/khipu-ml)
 
-## Overview
+Maria Contreras (UPC, Lima) · paper [arXiv:2607.00185](https://arxiv.org/abs/2607.00185) · data [Open Khipu Repository](https://doi.org/10.5281/zenodo.18025748)
 
-This repository contains an academic research pipeline that applies unsupervised and supervised machine learning to the [Open Khipu Repository (OKR)](https://doi.org/10.5281/zenodo.18025748) — a curated, structured database of Inka khipus (knotted-cord recording devices). The pipeline leverages **UMAP + HDBSCAN** for dimensionality reduction and density-based clustering of cord-level features, and **XGBoost** with SHAP interpretability for classification tasks. The goal is to identify structural and numerical patterns that may inform the ongoing decipherment effort.
+The pipeline turns the public OKR (619 khipus, 54,403 cords, 110,677 knots) into 27 structural features per specimen, then clusters, classifies provenance, and replicates a published Santa Valley finding — without touching the objects.
 
-Paper results: three structural clusters (silhouette = 0.769), Inka Late Horizon provenance F1 = 0.86, independent OKR-only replication of the Santa Valley recto/verso moiety pattern (Medrano and Urton, 2018).
+| | |
+|---|---|
+| Corpus | **619** khipus · **27** features |
+| Clusters | **3** groups, silhouette **0.769** |
+| Imperial style | XGBoost F1 **0.86** (Inka Late Horizon) |
+| Santa Valley | Recto/verso moiety **reproduced** from OKR alone |
 
-## Dataset (OKR)
+## What it finds
 
-The Open Khipu Repository is a community-maintained, versioned database of khipu transcriptions in SQLite format. It encodes cord hierarchy, knot types, knot values, pendant colors, and attachment styles for hundreds of museum specimens worldwide.
+**Imperial khipus are a tight cluster.** 17 Late Horizon specimens sit apart from the rest of the corpus. SHAP ranks cord twist, short uniform length, high knot density, and a restricted color palette as the signature of centralized manufacture. S-twist dominates imperial cords (85.3%).
 
-- **Format:** SQLite (`data/khipu.db`, gitignored — download separately)
-- **DOI:** [10.5281/zenodo.18025748](https://doi.org/10.5281/zenodo.18025748)
+**One cluster is colonial collecting, not a region.** Cluster 2 (160 khipus) is dominated by 19th-century European and North American museums. Twist-ratio vs the Central Coast majority differs at *p* ≈ 3.7×10⁻²⁷⁶, much of it unrecorded twist coded `U`. The OKR is not a neutral sample of Inka khipus.
 
-## Project Structure
+**Santa Valley moiety structure holds in the public database.** Medrano and Urton (2018) argued that attachment direction (recto/verso) encodes hanan/hurin. From OKR `ATTACHMENT_TYPE` only, five of six Santa Valley khipus (KH0323–KH0328) are pure R or pure V; **KH0326 is the only mixed specimen** — the same khipu the original study flagged. Aggregate R/V is 49%/51% vs their ~47%/53%. This is the structural claim, not the 367-peso tribute total.
 
+| OKR | Recto | Verso |
+|---|---:|---:|
+| KH0323 | 310 | 0 |
+| KH0324 | 0 | 54 |
+| KH0325 | 0 | 207 |
+| KH0326 | 40 | 69 |
+| KH0327 | 0 | 93 |
+| KH0328 | 56 | 0 |
+
+Coastal classes confuse each other (weighted F1 0.46 on 135 labeled specimens). Knot-type n-grams add nothing (ΔF1 ≈ −0.006).
+
+```mermaid
+flowchart LR
+  OKR["OKR SQLite"] --> Feat["27 features"]
+  Feat --> Clust["UMAP + HDBSCAN"]
+  Feat --> Clf["XGBoost + SHAP"]
+  Feat --> SV["Santa Valley R/V"]
+  Clust --> Out["3 clusters"]
+  Clf --> Imp["imperial F1 0.86"]
 ```
-khipu-ml/
-├── data/               # khipu.db goes here (gitignored)
-├── notebooks/
-│   └── 01_pipeline_khipu.ipynb     # Full pipeline: EDA, features, UMAP+HDBSCAN, XGBoost, SHAP, tuning, Santa Valley validation
-├── src/
-│   ├── __init__.py
-│   ├── loader.py       # SQLite connection and data loading
-│   ├── features.py     # Feature engineering utilities
-│   └── utils.py        # General-purpose helpers
-├── outputs/            # Generated figures and CSVs (gitignored)
-├── LICENSE             # MIT
-├── CITATION.cff
-├── .gitignore
-├── requirements.txt
-└── README.md
-```
 
-## Pipeline
-
-**Notebook:** `01_pipeline_khipu.ipynb` ([also on Kaggle](https://www.kaggle.com/code/macmaky/khipu-ml))
-
-| Step | Description |
-|------|-------------|
-| EDA | Schema exploration, missing value analysis, distributions of knot values, cord colors, and attachment metadata |
-| Features | Construction of cord-level and khipu-level feature matrices; encoding of categorical variables |
-| UMAP + HDBSCAN | UMAP projection to 2D/3D; HDBSCAN clustering → **3 clusters** (silhouette = 0.769); cluster profiling and visualization |
-| XGBoost | XGBoost classifier for khipu typology; class imbalance handling via `imbalanced-learn`; cross-validation → **F1 = 0.80** (Inka imperial style) |
-| SHAP | SHAP values for global and local feature importance; cluster interpretation; hypothesis generation |
-| XGBoost Tuning | `RandomizedSearchCV` hyperparameter search with class weighting → **F1 = 0.86** (tuned, Inka Late Horizon) |
-| Confusion Analysis | Confusion matrix and t-tests on Central Coast vs South Coast misclassification |
-| Sequence Modeling | TF-IDF over knot-type n-grams (bigrams/trigrams) tested as additional features — no measurable improvement (ΔF1 ≈ −0.006) |
-| Santa Valley Validation | Independent computational replication of Medrano & Urton (2018) recto/verso moiety findings using only the public OKR database |
-
-## Results
-
-### Clustering (UMAP + HDBSCAN)
-
-- 3 structurally distinct clusters, silhouette = 0.769
-- Cluster 0 (17 khipus): Inka Late Horizon imperial style
-- Cluster 1 (442 khipus): Central Coast, Peru — majority style
-- Cluster 2 (160 khipus): 19th century European collections
-
-### Classification (XGBoost)
-
-- F1 weighted = 0.46 baseline (7 classes, 135 labeled samples)
-- F1 = 0.80 for Inka Late Horizon style
-- F1 = 0.86 for Inka Late Horizon style after hyperparameter tuning (`RandomizedSearchCV`, class weighting)
-- Knot-type n-gram sequence features tested via TF-IDF: no measurable gain over aggregate features (ΔF1 ≈ −0.006)
-
-### Interpretability (SHAP)
-
-Top features for Inka imperial detection:
-
-1. `knot_dir_Z` — standardized Z-direction knotting
-2. `mean_length` — shorter, more uniform cords
-3. `n_knots` — higher knot density
-4. `std_length` — low variability (high standardization)
-5. `color_entropy` — restricted color palette
-
-### Santa Valley Validation (Medrano & Urton, 2018)
-
-Independent computational replication of the Santa Valley khipu group, using only the public OKR database (no physical object access):
-
-- 6 khipus identified in OKR: KH0323–KH0328 (Museo Temple Radicati, Lima)
-- Recto/Verso replication: this study (cord-level) R=49.0%, V=51.0% vs. Medrano & Urton (group-level) R=47%, V=53% — consistent
-- Moiety structure confirmed: 5 of 6 khipus are purely R or purely V; KH0326 is the sole mixed khipu, matching the original finding exactly
-
-### Key Finding
-
-Inka imperial khipus are ML-detectable with F1=0.86 (tuned).
-Construction conventions encode regional identity.
-Colonial collection patterns are visible in corpus structure.
-The Santa Valley recto/verso moiety pattern reported in the literature is independently reproducible from the public OKR database alone.
-
-### Versioned Results
-
-- **v5:** Cluster 2 deep analysis — twist S identified as Inka imperial manufacturing signature (p=3.7e-276)
-- Colonial collection bias confirmed: double layer (geographic + methodological recording bias)
-- XGBoost tuning raised F1 for Inka Late Horizon style from 0.80 to 0.86
-- Knot-sequence n-gram features evaluated and found not to improve classification
-- First independent computational verification of the Santa Valley recto/verso match (Medrano & Urton 2018) from OKR data
-
-## Notebooks
-
-| Notebook | Description |
-|----------|-------------|
-| `01_pipeline_khipu.ipynb` | Full pipeline: EDA, feature engineering, UMAP+HDBSCAN clustering, XGBoost classification + tuning, SHAP interpretability, sequence modeling, Santa Valley validation |
-
-## Setup
+## Run it
 
 ```bash
-# 1. Clone the repository
 git clone https://github.com/mcontrerasmalpar-pixel/khipu-ml.git
 cd khipu-ml
-
-# 2. Create and activate a virtual environment
-python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
-
-# 3. Install dependencies
+python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-
-# 4. Download the OKR database
-#    Place khipu.db inside the data/ directory.
-#    Download from: https://doi.org/10.5281/zenodo.18025748
-
-# 5. Launch Jupyter
-jupyter notebook
 ```
 
-## Citation
+Download [`khipu.db`](https://doi.org/10.5281/zenodo.18025748) into `data/`, then open `notebooks/01_pipeline_khipu.ipynb` (same notebook on [Kaggle](https://www.kaggle.com/code/macmaky/khipu-ml)).
 
-If you use this work, please cite the paper:
+```
+data/          khipu.db (gitignored)
+notebooks/     full pipeline
+src/           loader, features, utils
+outputs/       figures (gitignored)
+```
+
+## Cite
 
 ```bibtex
 @misc{contreras2026khipu,
@@ -150,12 +79,10 @@ If you use this work, please cite the paper:
 }
 ```
 
-And the Open Khipu Repository:
-
 ```bibtex
 @dataset{open_khipu_repository,
-  title  = {Open Khipu Repository},
-  doi    = {10.5281/zenodo.18025748},
-  url    = {https://doi.org/10.5281/zenodo.18025748}
+  title = {Open Khipu Repository},
+  doi   = {10.5281/zenodo.18025748},
+  url   = {https://doi.org/10.5281/zenodo.18025748}
 }
 ```
