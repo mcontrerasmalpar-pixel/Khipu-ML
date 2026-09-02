@@ -3,9 +3,16 @@
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
+**Paper:** [arXiv:2607.00185](https://arxiv.org/abs/2607.00185) (cs.CL)
+**Author:** Maria Contreras (UPC, Lima)
+**Code:** [GitHub](https://github.com/mcontrerasmalpar-pixel/khipu-ml) · [Kaggle](https://www.kaggle.com/code/macmaky/khipu-ml)
+**Dataset:** [Open Khipu Repository](https://doi.org/10.5281/zenodo.18025748)
+
 ## Overview
 
 This repository contains an academic research pipeline that applies unsupervised and supervised machine learning to the [Open Khipu Repository (OKR)](https://doi.org/10.5281/zenodo.18025748) — a curated, structured database of Inka khipus (knotted-cord recording devices). The pipeline leverages **UMAP + HDBSCAN** for dimensionality reduction and density-based clustering of cord-level features, and **XGBoost** with SHAP interpretability for classification tasks. The goal is to identify structural and numerical patterns that may inform the ongoing decipherment effort.
+
+Paper results: three structural clusters (silhouette = 0.769), Inka Late Horizon provenance F1 = 0.86, independent OKR-only replication of the Santa Valley recto/verso moiety pattern (Medrano and Urton, 2018).
 
 ## Dataset (OKR)
 
@@ -27,6 +34,8 @@ khipu-ml/
 │   ├── features.py     # Feature engineering utilities
 │   └── utils.py        # General-purpose helpers
 ├── outputs/            # Generated figures and CSVs (gitignored)
+├── LICENSE             # MIT
+├── CITATION.cff
 ├── .gitignore
 ├── requirements.txt
 └── README.md
@@ -107,7 +116,7 @@ The Santa Valley recto/verso moiety pattern reported in the literature is indepe
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/khipu-ml.git
+git clone https://github.com/mcontrerasmalpar-pixel/khipu-ml.git
 cd khipu-ml
 
 # 2. Create and activate a virtual environment
@@ -127,7 +136,21 @@ jupyter notebook
 
 ## Citation
 
-If you use this code or the OKR data in your research, please cite the Open Khipu Repository:
+If you use this work, please cite the paper:
+
+```bibtex
+@misc{contreras2026khipu,
+  title={Structural Pattern Mining in Inka Khipus: Unsupervised Clustering, Provenance Classification, and a Computational Validation of the Santa Valley Match},
+  author={Contreras, Maria},
+  year={2026},
+  eprint={2607.00185},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2607.00185}
+}
+```
+
+And the Open Khipu Repository:
 
 ```bibtex
 @dataset{open_khipu_repository,
