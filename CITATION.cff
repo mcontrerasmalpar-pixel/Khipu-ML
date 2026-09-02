@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: If you use this work, please cite the paper below.
+title: khipu-ml
+authors:
+  - family-names: Contreras
+    given-names: Maria
+    alias: macmaky
+    affiliation: Universidad Peruana de Ciencias Aplicadas
+url: https://github.com/mcontrerasmalpar-pixel/khipu-ml
+repository-code: https://github.com/mcontrerasmalpar-pixel/khipu-ml
+license: MIT
+date-released: "2026-06-30"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Contreras
+      given-names: Maria
+  title: "Structural Pattern Mining in Inka Khipus: Unsupervised Clustering, Provenance Classification, and a Computational Validation of the Santa Valley Match"
+  year: 2026
+  url: https://arxiv.org/abs/2607.00185
+  identifiers:
+    - type: other
+      value: "arXiv:2607.00185"
+      description: arXiv preprint
