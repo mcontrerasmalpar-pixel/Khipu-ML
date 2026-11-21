@@ -1,7 +1,11 @@
 data/*.db
+data/*.zip
+data/open-khipu-repository-*/
 outputs/
+okr_data/
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
 .env
+.venv/
 .claude/
