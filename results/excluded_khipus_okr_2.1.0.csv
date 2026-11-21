@@ -1,190 +1,190 @@
-KHIPU_ID,OKR_NUM,INVESTIGATOR_NUM,CREATED_BY,MUSEUM_NAME,PROVENANCE,REGION,n_cords,pct_twist_U,ratio_SZ,exclusion_reason,okr_zenodo_version,okr_zenodo_doi
-1000013,KH0220,AS202,katie,"""Lowie Museum, University of California, Berkeley""",,,30,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000014,KH0221,AS203,katie,"""Lowie Museum, University of California, Berkeley""",,,37,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000015,KH0224,AS206,katie,"""Museum of Culture History, University of California, Los Angeles""",,,32,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000017,KH0230,AS210,katie,"""Field Museum of Natural History, Chicago, IL""",,,39,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000026,KH0219,AS201,katie,"""Lowie Museum, University of California, Berkeley""",Ica,,18,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000027,KH0222,AS204,katie,"""Lowie Museum, University of California, Berkeley""",Ica,,20,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000028,KH0223,AS205,katie,"""Lowie Museum, University of California, Berkeley""",,,21,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000029,KH0225,AS207A,katie,"""Museum of Science, Buffalo, New York""",,,253,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000030,KH0226,AS207B,katie,"""Museum of Science, Buffalo, New York""",,,28,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000031,KH0227,AS207C,katie,"""Museum of Science, Buffalo, New York""",,,14,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000032,KH0229,AS209,katie,"""Royal Ontario Museum, Toronto""",,,143,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000033,KH0231,AS211,katie,"""N195161prstkovo Museum, Prague""",,,68,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000034,KH0232,AS212,katie,"""Joslyn Art Museum, Omaha, Nebraska""",,,100,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000035,KH0233,AS213,katie,"""owner Leo J. Harris, St. Paul, Minnesota""",,,36,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000036,KH0234,AS214,katie,"""Hood Museum of Art, Dartmouth College, Hanover, New Hampshire""",,,20,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000037,KH0235,AS215,katie,"""Hood Museum of Art, Dartmouth College, Hanover, New Hampshire""",Nazca,,37,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000038,KH0236,AS215F,katie,"""Hood Museum of Art, Dartmouth College, Hanover, New Hampshire""",Nazca,,5,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000043,KH0114,AS101 - Part 1,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,21,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000044,KH0115,AS101 - Part 2,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,28,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000054,KH0124,AS110,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,20,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000055,KH0125,AS111,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,11,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000056,KH0126,AS112,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,42,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000058,KH0175,AS159,katie,"""Museum für Völkerkunde, Berlin""",Between Ica and Pisco,,53,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000059,KH0190,AS173,katie,"""Museum für Völkerkunde, Berlin""",Between Ica and Pisco,,15,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000060,KH0191,AS174,katie,"""Museum für Völkerkunde, Berlin""",Between Ica and Pisco,,27,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000061,KH0212,AS194,katie,"""American Museum of Natural History, NY""",Ica,,7,0.8571,1.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000062,KH0213,AS195,katie,"""American Museum of Natural History, NY""",Ica,,7,0.8571,1.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000064,KH0176,AS160,katie,"""Museum für Völkerkunde, Berlin""",Between Ica and Pisco,,23,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000065,KH0208,AS190,katie,"""American Museum of Natural History, NY""",Ica,,101,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000071,KH0129,AS115,katie,"""Museum für Völkerkunde, Berlin""",Ica,,55,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000078,KH0136,AS122,katie,"""Museum für Völkerkunde, Berlin""",Lima,,9,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000082,KH0140,AS125,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,16,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000084,KH0142,UR1127,katie,"""Museum für Völkerkunde, Berlin""",Nazca,,6,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000085,KH0143,AS128,katie,"""Museum für Völkerkunde, Berlin""",Nazca,,289,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000086,KH0144,AS129,katie,"""Museum für Völkerkunde, Berlin""",Ica,,14,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000088,KH0146,AS130 B,katie,"""Museum für Völkerkunde, Berlin""",near Lima,,195,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000090,KH0148,AS132,katie,"""Museum für Völkerkunde, Berlin""",Marquez,,15,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000091,KH0149,AS133,katie,"""Museum für Völkerkunde, Berlin""",Marquez,,49,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000092,KH0150,AS134,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,13,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000096,KH0082,AS069,katie,"""owner Percy Dauelsberg, Arica, Chile""",Lluta Valley,,1831,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000105,KH0035,UR1033A,katie,"""Peabody Museum, Harvard University""",,,12,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000112,KH0153,AS137,katie,"""Museum für Völkerkunde, Berlin""",Chuquitanta,,4,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000114,KH0155,AS139,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,14,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000116,KH0157,UR1141,katie,"""Museum für Völkerkunde, Berlin""",Ica,,20,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000117,KH0158,AS142,katie,"""Museum für Völkerkunde, Berlin""",Ica,,18,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000128,KH0169,AS153,katie,"""Museum für Völkerkunde, Berlin""",,,40,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000130,KH0171,AS155,katie,"""Museum für Völkerkunde, Berlin""",near Lima,,9,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000131,KH0172,AS156,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,65,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000132,KH0173,AS157,katie,"""Museum für Völkerkunde, Berlin""",,,34,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000133,KH0174,AS158,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,18,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000138,KH0181,AS164,katie,"""Museum für Völkerkunde, Berlin""",Ica,,33,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000142,KH0185,AS168,katie,"""Museum für Völkerkunde, Berlin""",,,18,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000143,KH0186,AS169,katie,"""Museum für Völkerkunde, Berlin""",,,30,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000145,KH0188,AS171,katie,"""Museum für Völkerkunde, Berlin""",Ica,,24,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000146,KH0189,AS172,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,59,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000149,KH0194,AS177,katie,"""Museum für Völkerkunde, Berlin""",near Lima,,15,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000150,KH0195,AS178,katie,"""Museum für Völkerkunde, Berlin""",near Lima,,30,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000154,KH0199,AS182,katie,"""Museum für Völkerkunde, Berlin""",,,5,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000155,KH0200,AS182B,katie,"""Museum für Völkerkunde, Berlin""",,,1,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000156,KH0201,AS183,katie,"""Museum für Völkerkunde, Berlin""",,,7,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000157,KH0202,AS184,katie,"""Museum für Völkerkunde, Berlin""",,,9,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000158,KH0203,AS185,katie,"""Museum für Völkerkunde, Berlin""",,,30,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000159,KH0204,AS186,katie,"""Museum für Völkerkunde, Berlin""",,,64,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000160,KH0205,AS187,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,3,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000161,KH0206,AS188,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,12,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000162,KH0207,AS189,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,35,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000166,KH0011,AS010,katie,"""Niedersächsische Landesmuseum, Hanover, West Germany""",,,28,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000167,KH0012,AS011,katie,"""Niedersächsische Landesmuseum, Hanover, West Germany""",,,24,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000168,KH0096,AS083,leah,"""Musee de l Homme, Paris, France""",,,3,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000170,KH0063,UR1052,leah,"""Museo de Ica, Ica, Peru""",Hacienda Ullujalla y Callengo,,49,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000171,KH0071,AS060,leah,"""O. Nunez del Prado, Cuzco""",,,15,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000173,KH0070,AS059,leah,"""O. Nunez del Prado, Cuzco""",,,8,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000174,KH0086,AS073,leah,,"Rancho San Juan, Ica Valley",,25,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000177,KH0072,AS061/MA036,leah,"""O. Nunez del Prado, Cuzco""",,,23,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000178,KH0073,AS062,leah,"""O. Nunez del Prado, Cuzco""",,,32,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000179,KH0065,AS054,leah,"""Museo de Ica, Ica, Peru""",Hacienda Ullujalla y Callengo,,26,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000180,KH0013,AS012,leah,"""Niedersächsische Landesmuseum, Hanover, West Germany""",,,105,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000182,KH0066,AS055,leah,"""Museo de Ica, Ica, Peru""",Hacienda Ullujalla y Callengo,,3,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000184,KH0014,AS013,leah,"""Niedersächsische Landesmuseum, Hanover, West Germany""",,,90,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000185,KH0015,AS014,leah,British Museum,,,75,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000186,KH0016,AS015,leah,"""University Museum, University of Pennsylvania""",,,12,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000187,KH0017,AS016,leah,"""University Museum, University of Pennsylvania""",,,11,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000188,KH0018,AS017,leah,"""University Museum, University of Pennsylvania""",,,39,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000189,KH0019,AS018,leah,"""University Museum, University of Pennsylvania""",,,10,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000190,KH0020,AS019,leah,"""University Museum, University of Pennsylvania""",,,9,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000191,KH0021,AS020,leah,"""University Museum, University of Pennsylvania""",,,10,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000192,KH0022,AS021,leah,"""University Museum, University of Pennsylvania""",,,75,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000194,KH0024,AS023,leah,"""University Museum, University of Pennsylvania""",,,8,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000195,KH0025,AS024,leah,"""University Museum, University of Pennsylvania""",,,3,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000196,KH0026,AS025,leah,"""University Museum, University of Pennsylvania""",,,2,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000197,KH0027,AS026A,leah,"""University Museum, University of Pennsylvania""",,,77,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000198,KH0028,AS026B,leah,"""University Museum, University of Pennsylvania""",,,260,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000199,KH0029,AS027,leah,"""University Museum, University of Pennsylvania""",,,28,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000200,KH0030,AS028,leah,"""University Museum, University of Pennsylvania""",,,56,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000201,KH0031,AS029,leah,"""Museum Voor Land-en Volkenkunde, Rotterdam, Holland""",Aankoop,,143,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000204,KH0043,AS35A,leah,Brooklyn Museum,,,16,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000205,KH0044,AS35B,leah,Brooklyn Museum,,,4,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000206,KH0045,AS035C,leah,Brooklyn Museum,,,12,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000207,KH0046,AS035D,leah,Brooklyn Museum,,,38,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000208,KH0051,UR1040,leah,"""Museo Nacional, Lima, Peru""",,,45,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000209,KH0052,AS041,leah,"""Museo Nacional, Lima, Peru""",,,56,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000210,KH0053,AS042,leah,"""Museo Nacional, Lima, Peru""",,,14,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000211,KH0054,AS043,leah,"""Museo Nacional, Lima, Peru""",,,29,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000212,KH0056,AS045,leah,"""Museo Nacional, Lima, Peru""",,,53,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000213,KH0050,AS039,leah,"""Museo Nacional, Lima, Peru""",,,36,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000216,KH0074,AS063,leah,"""O. Nunez del Prado, Cuzco""",,,10,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000217,KH0076,AS064,leah,"""O. Nunez del Prado, Cuzco""",,,7,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000218,KH0077,AS065,leah,"""O. Nunez del Prado, Cuzco""",,,5,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000221,KH0090,AS077,leah,"""Musee de l Homme, Paris, France""",,,33,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000223,KH0075,AS063B,leah,"""O. Nunez del Prado, Cuzco""",,,31,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000224,KH0078,AS065B,leah,"""O. Nunez del Prado, Cuzco""",,,5,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000225,KH0094,AS081,leah,"""Musee de l Homme, Paris, France""",,,8,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000226,KH0095,AS082,leah,"""Musee de l Homme, Paris, France""",,,6,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000227,KH0107,AS094,leah,"""Museum Fur Volkerkunde, Munich, W. Germany""",Peru,,51,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000228,KH0099,AS086,leah,"""Museum fur Volkerkunde, Basel, Switzerland""",Huacho,,45,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000229,KH0059,AS048,leah,"""Museo Amano, Lima, Peru""",,,80,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000231,KH0098,AS085,leah,"""Musee d Ethnographie, Geneva, Switzerland""",,,45,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000232,KH0102,AS089,leah,"""Museum Fur Volkerkunde, Munich, W. Germany""",Peru,,35,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000233,KH0103,AS090/N2,leah,"""Museum Fur Volkerkunde, Munich, W. Germany""",Peru,,58,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000234,KH0105,AS092,leah,"""Museum Fur Volkerkunde, Munich, W. Germany""",Peru,,56,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000235,KH0047,AS036,leah,"""Museo """"Jijon y Caamano"""", Pontificia Universidad Catolica del Ecuador, Quito, Ecuador""","""Maranga, Huaca 1""",,81,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000236,KH0048,AS037,leah,"""Museo """"Jijon y Caamano"""", Pontificia Universidad Catolica del Ecuador, Quito, Ecuador""",,,82,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000241,KH0276,UR046,leah,Museo Larco,"""Pueblo Libre, Lima, Peru""",,86,0.8721,1.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000295,KH0290,UR056A,chandra,"""Rijksmuseum fur Volkerkunde, Leiden, Holland""",,,42,0.2381,1.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000333,KH0042,UR1034,tania,"""National Museum, Smithsonian, Washington, D.C.""",Pachacamac,,179,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000345,KH0055,AS044,tania,"""Museo Nacional, Lima, Peru""",,,161,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000347,KH0334,UR098,tania,Museo Temple Radicati,,,9,0.2222,0.8571,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000349,KH0336,UR100,tania,Museo Temple Radicati,,,5,0.2,0.5,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000361,KH0061,AS050,tania,"""owner Ana Maria Soldi, Lima, Peru""",,,370,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000365,KH0106,AS093,eric,"""Museum Fur Volkerkunde, Munich, W. Germany""",,,70,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000367,KH0085,AS072,eric,,"Rancho San Juan, Ica Valley",,60,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000368,KH0084,AS071,eric,"""owner Percy Dauelsberg, Arica, Chile""",,,404,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000369,KH0079,AS066,eric,"""O. Nunez del Prado, Cuzco""",,,172,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000371,KH0080,AS067/MA029,eric,"""O. Nunez del Prado, Cuzco""",,,163,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000383,KH0288,UR054,eric,Private Collection: Anna Maria Soldi,,,115,0.5391,0.1132,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000417,KH0398,UR158,eric,Museo Regional de Ica,Tambo Colorado,,25,0.28,1.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000456,KH0592,QU04,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",62,0.8065,1.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000457,KH0593,QU05,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",57,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000458,KH0594,QU06,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",18,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000459,KH0595,QU07,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",89,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000460,KH0596,QU08,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",21,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000461,KH0597,QU09,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",160,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000462,KH0598,QU10,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",45,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000463,KH0599,QU11,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",120,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000464,KH0601,QU13,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",0,1.0,0.0,empty_no_cords,2.1.0,10.5281/zenodo.18025748
-1000465,KH0602,QU14,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",0,1.0,0.0,empty_no_cords,2.1.0,10.5281/zenodo.18025748
-1000466,KH0603,QU15,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",0,1.0,0.0,empty_no_cords,2.1.0,10.5281/zenodo.18025748
-1000467,KH0604,QU16,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",0,1.0,0.0,empty_no_cords,2.1.0,10.5281/zenodo.18025748
-1000468,KH0605,QU17,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",0,1.0,0.0,empty_no_cords,2.1.0,10.5281/zenodo.18025748
-1000469,KH0606,QU18,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",0,1.0,0.0,empty_no_cords,2.1.0,10.5281/zenodo.18025748
-1000470,KH0607,QU19,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",0,1.0,0.0,empty_no_cords,2.1.0,10.5281/zenodo.18025748
-1000583,KH0583,HP052,julia,"Museo Nacional de Arqueologia, Antropologia e Historia del Peru",unknown,,47,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
-1000625,KH0608,JC001,jclindaniel,Proyecto Incahuasi,Incahuasi,,36,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000626,KH0609,JC002,jclindaniel,Proyecto Incahuasi,Incahuasi,,4,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000627,KH0610,JC003,jclindaniel,Proyecto Incahuasi,Incahuasi,,8,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000628,KH0611,JC004,jclindaniel,Proyecto Incahuasi,Incahuasi,,32,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000629,KH0612,JC005,jclindaniel,Proyecto Incahuasi,Incahuasi,,193,0.0104,0.0052,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000630,KH0613,JC006,jclindaniel,Proyecto Incahuasi,Incahuasi,,13,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000631,KH0614,JC007,jclindaniel,Proyecto Incahuasi,Incahuasi,,6,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000632,KH0615,JC008,jclindaniel,Proyecto Incahuasi,Incahuasi,,6,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000633,KH0616,JC009,jclindaniel,Proyecto Incahuasi,Incahuasi,,95,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000634,KH0617,JC010,jclindaniel,Proyecto Incahuasi,Incahuasi,,374,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000635,KH0618,JC011,jclindaniel,Proyecto Incahuasi,Incahuasi,,126,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000636,KH0619,JC012,jclindaniel,Proyecto Incahuasi,Incahuasi,,30,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000637,KH0620,JC013,jclindaniel,Proyecto Incahuasi,Incahuasi,,78,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000638,KH0621,JC014,jclindaniel,Proyecto Incahuasi,Incahuasi,,60,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000639,KH0622,JC015,jclindaniel,Proyecto Incahuasi,Incahuasi,,10,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000640,KH0623,JC016,jclindaniel,Proyecto Incahuasi,Incahuasi,,9,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000641,KH0624,JC017,jclindaniel,Proyecto Incahuasi,Incahuasi,,5,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000642,KH0625,JC018,jclindaniel,Proyecto Incahuasi,Incahuasi,,13,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000643,KH0626,JC019,jclindaniel,Proyecto Incahuasi,Incahuasi,,6,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000644,KH0627,JC020,jclindaniel,Proyecto Incahausi,Incahuasi,,4,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000645,KH0628,JC021,jclindaniel,Proyecto Incahuasi,Incahuasi,,11,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000646,KH0629,JC022,jclindaniel,Proyecto Incahuasi,Incahuasi,,24,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000647,KH0630,JC023,jclindaniel,Proyecto Incahuasi,Incahuasi,,74,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000648,KH0081,AS068/UR281,jclindaniel,"Museo Nac., Pueblo Libre","Monte de Cacatilla, Valle de Nazca",,216,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000649,KH0520,UR282,jclindaniel,"Museo Nac., Pueblo Libre","Huaca San Pedro, Armatambo",,32,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000650,KH0521,UR283,jclindaniel,"Museo Nac., Pueblo Libre","Huaca San Pedro, Armatambo",,198,0.0,0.0303,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000651,KH0522,UR284,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,22,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000652,KH0523,UR285,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,14,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000653,KH0524,UR286,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,6,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000654,KH0525,UR287,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,57,0.0,0.0351,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000655,KH0526,UR288,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,29,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000656,KH0527,UR289,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,35,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000657,KH0528,UR290,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,8,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000658,KH0529,UR291A,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,272,0.0,0.3897,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000659,KH0530,UR292A,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,56,0.0179,0.0545,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000660,KH0531,UR293,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,4,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
-1000661,KH0532,UR294,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,5,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+KHIPU_ID,OKR_NUM,INVESTIGATOR_NUM,CREATED_BY,MUSEUM_NAME,PROVENANCE,REGION,n_cords,pct_twist_Ucode,pct_twist_blank,pct_twist_U,ratio_SZ,exclusion_reason,okr_zenodo_version,okr_zenodo_doi
+1000013,KH0220,AS202,katie,"""Lowie Museum, University of California, Berkeley""",,,30,0.8,0.2,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000014,KH0221,AS203,katie,"""Lowie Museum, University of California, Berkeley""",,,37,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000015,KH0224,AS206,katie,"""Museum of Culture History, University of California, Los Angeles""",,,32,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000017,KH0230,AS210,katie,"""Field Museum of Natural History, Chicago, IL""",,,39,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000026,KH0219,AS201,katie,"""Lowie Museum, University of California, Berkeley""",Ica,,18,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000027,KH0222,AS204,katie,"""Lowie Museum, University of California, Berkeley""",Ica,,20,0.95,0.05,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000028,KH0223,AS205,katie,"""Lowie Museum, University of California, Berkeley""",,,21,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000029,KH0225,AS207A,katie,"""Museum of Science, Buffalo, New York""",,,253,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000030,KH0226,AS207B,katie,"""Museum of Science, Buffalo, New York""",,,28,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000031,KH0227,AS207C,katie,"""Museum of Science, Buffalo, New York""",,,14,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000032,KH0229,AS209,katie,"""Royal Ontario Museum, Toronto""",,,143,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000033,KH0231,AS211,katie,"""N195161prstkovo Museum, Prague""",,,68,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000034,KH0232,AS212,katie,"""Joslyn Art Museum, Omaha, Nebraska""",,,100,0.99,0.01,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000035,KH0233,AS213,katie,"""owner Leo J. Harris, St. Paul, Minnesota""",,,36,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000036,KH0234,AS214,katie,"""Hood Museum of Art, Dartmouth College, Hanover, New Hampshire""",,,20,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000037,KH0235,AS215,katie,"""Hood Museum of Art, Dartmouth College, Hanover, New Hampshire""",Nazca,,37,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000038,KH0236,AS215F,katie,"""Hood Museum of Art, Dartmouth College, Hanover, New Hampshire""",Nazca,,5,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000043,KH0114,AS101 - Part 1,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,21,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000044,KH0115,AS101 - Part 2,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,28,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000054,KH0124,AS110,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,20,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000055,KH0125,AS111,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,11,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000056,KH0126,AS112,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,42,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000058,KH0175,AS159,katie,"""Museum für Völkerkunde, Berlin""",Between Ica and Pisco,,53,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000059,KH0190,AS173,katie,"""Museum für Völkerkunde, Berlin""",Between Ica and Pisco,,15,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000060,KH0191,AS174,katie,"""Museum für Völkerkunde, Berlin""",Between Ica and Pisco,,27,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000061,KH0212,AS194,katie,"""American Museum of Natural History, NY""",Ica,,7,0.8571,0.0,0.8571,1.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000062,KH0213,AS195,katie,"""American Museum of Natural History, NY""",Ica,,7,0.8571,0.0,0.8571,1.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000064,KH0176,AS160,katie,"""Museum für Völkerkunde, Berlin""",Between Ica and Pisco,,23,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000065,KH0208,AS190,katie,"""American Museum of Natural History, NY""",Ica,,101,0.9901,0.0099,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000071,KH0129,AS115,katie,"""Museum für Völkerkunde, Berlin""",Ica,,55,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000078,KH0136,AS122,katie,"""Museum für Völkerkunde, Berlin""",Lima,,9,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000082,KH0140,AS125,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,16,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000084,KH0142,UR1127,katie,"""Museum für Völkerkunde, Berlin""",Nazca,,6,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000085,KH0143,AS128,katie,"""Museum für Völkerkunde, Berlin""",Nazca,,289,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000086,KH0144,AS129,katie,"""Museum für Völkerkunde, Berlin""",Ica,,14,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000088,KH0146,AS130 B,katie,"""Museum für Völkerkunde, Berlin""",near Lima,,195,0.0,1.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000090,KH0148,AS132,katie,"""Museum für Völkerkunde, Berlin""",Marquez,,15,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000091,KH0149,AS133,katie,"""Museum für Völkerkunde, Berlin""",Marquez,,49,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000092,KH0150,AS134,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,13,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000096,KH0082,AS069,katie,"""owner Percy Dauelsberg, Arica, Chile""",Lluta Valley,,1831,0.9995,0.0005,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000105,KH0035,UR1033A,katie,"""Peabody Museum, Harvard University""",,,12,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000112,KH0153,AS137,katie,"""Museum für Völkerkunde, Berlin""",Chuquitanta,,4,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000114,KH0155,AS139,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,14,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000116,KH0157,UR1141,katie,"""Museum für Völkerkunde, Berlin""",Ica,,20,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000117,KH0158,AS142,katie,"""Museum für Völkerkunde, Berlin""",Ica,,18,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000128,KH0169,AS153,katie,"""Museum für Völkerkunde, Berlin""",,,40,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000130,KH0171,AS155,katie,"""Museum für Völkerkunde, Berlin""",near Lima,,9,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000131,KH0172,AS156,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,65,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000132,KH0173,AS157,katie,"""Museum für Völkerkunde, Berlin""",,,34,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000133,KH0174,AS158,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,18,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000138,KH0181,AS164,katie,"""Museum für Völkerkunde, Berlin""",Ica,,33,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000142,KH0185,AS168,katie,"""Museum für Völkerkunde, Berlin""",,,18,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000143,KH0186,AS169,katie,"""Museum für Völkerkunde, Berlin""",,,30,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000145,KH0188,AS171,katie,"""Museum für Völkerkunde, Berlin""",Ica,,24,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000146,KH0189,AS172,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,59,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000149,KH0194,AS177,katie,"""Museum für Völkerkunde, Berlin""",near Lima,,15,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000150,KH0195,AS178,katie,"""Museum für Völkerkunde, Berlin""",near Lima,,30,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000154,KH0199,AS182,katie,"""Museum für Völkerkunde, Berlin""",,,5,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000155,KH0200,AS182B,katie,"""Museum für Völkerkunde, Berlin""",,,1,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000156,KH0201,AS183,katie,"""Museum für Völkerkunde, Berlin""",,,7,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000157,KH0202,AS184,katie,"""Museum für Völkerkunde, Berlin""",,,9,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000158,KH0203,AS185,katie,"""Museum für Völkerkunde, Berlin""",,,30,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000159,KH0204,AS186,katie,"""Museum für Völkerkunde, Berlin""",,,64,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000160,KH0205,AS187,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,3,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000161,KH0206,AS188,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,12,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000162,KH0207,AS189,katie,"""Museum für Völkerkunde, Berlin""",Pachacamac,,35,0.9714,0.0286,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000166,KH0011,AS010,katie,"""Niedersächsische Landesmuseum, Hanover, West Germany""",,,28,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000167,KH0012,AS011,katie,"""Niedersächsische Landesmuseum, Hanover, West Germany""",,,24,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000168,KH0096,AS083,leah,"""Musee de l Homme, Paris, France""",,,3,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000170,KH0063,UR1052,leah,"""Museo de Ica, Ica, Peru""",Hacienda Ullujalla y Callengo,,49,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000171,KH0071,AS060,leah,"""O. Nunez del Prado, Cuzco""",,,15,0.8667,0.1333,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000173,KH0070,AS059,leah,"""O. Nunez del Prado, Cuzco""",,,8,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000174,KH0086,AS073,leah,,"Rancho San Juan, Ica Valley",,25,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000177,KH0072,AS061/MA036,leah,"""O. Nunez del Prado, Cuzco""",,,23,0.9565,0.0435,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000178,KH0073,AS062,leah,"""O. Nunez del Prado, Cuzco""",,,32,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000179,KH0065,AS054,leah,"""Museo de Ica, Ica, Peru""",Hacienda Ullujalla y Callengo,,26,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000180,KH0013,AS012,leah,"""Niedersächsische Landesmuseum, Hanover, West Germany""",,,105,0.9905,0.0095,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000182,KH0066,AS055,leah,"""Museo de Ica, Ica, Peru""",Hacienda Ullujalla y Callengo,,3,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000184,KH0014,AS013,leah,"""Niedersächsische Landesmuseum, Hanover, West Germany""",,,90,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000185,KH0015,AS014,leah,British Museum,,,75,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000186,KH0016,AS015,leah,"""University Museum, University of Pennsylvania""",,,12,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000187,KH0017,AS016,leah,"""University Museum, University of Pennsylvania""",,,11,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000188,KH0018,AS017,leah,"""University Museum, University of Pennsylvania""",,,39,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000189,KH0019,AS018,leah,"""University Museum, University of Pennsylvania""",,,10,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000190,KH0020,AS019,leah,"""University Museum, University of Pennsylvania""",,,9,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000191,KH0021,AS020,leah,"""University Museum, University of Pennsylvania""",,,10,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000192,KH0022,AS021,leah,"""University Museum, University of Pennsylvania""",,,75,0.9867,0.0133,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000194,KH0024,AS023,leah,"""University Museum, University of Pennsylvania""",,,8,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000195,KH0025,AS024,leah,"""University Museum, University of Pennsylvania""",,,3,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000196,KH0026,AS025,leah,"""University Museum, University of Pennsylvania""",,,2,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000197,KH0027,AS026A,leah,"""University Museum, University of Pennsylvania""",,,77,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000198,KH0028,AS026B,leah,"""University Museum, University of Pennsylvania""",,,260,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000199,KH0029,AS027,leah,"""University Museum, University of Pennsylvania""",,,28,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000200,KH0030,AS028,leah,"""University Museum, University of Pennsylvania""",,,56,0.9821,0.0179,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000201,KH0031,AS029,leah,"""Museum Voor Land-en Volkenkunde, Rotterdam, Holland""",Aankoop,,143,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000204,KH0043,AS35A,leah,Brooklyn Museum,,,16,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000205,KH0044,AS35B,leah,Brooklyn Museum,,,4,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000206,KH0045,AS035C,leah,Brooklyn Museum,,,12,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000207,KH0046,AS035D,leah,Brooklyn Museum,,,38,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000208,KH0051,UR1040,leah,"""Museo Nacional, Lima, Peru""",,,45,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000209,KH0052,AS041,leah,"""Museo Nacional, Lima, Peru""",,,56,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000210,KH0053,AS042,leah,"""Museo Nacional, Lima, Peru""",,,14,0.9286,0.0714,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000211,KH0054,AS043,leah,"""Museo Nacional, Lima, Peru""",,,29,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000212,KH0056,AS045,leah,"""Museo Nacional, Lima, Peru""",,,53,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000213,KH0050,AS039,leah,"""Museo Nacional, Lima, Peru""",,,36,0.9722,0.0278,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000216,KH0074,AS063,leah,"""O. Nunez del Prado, Cuzco""",,,10,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000217,KH0076,AS064,leah,"""O. Nunez del Prado, Cuzco""",,,7,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000218,KH0077,AS065,leah,"""O. Nunez del Prado, Cuzco""",,,5,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000221,KH0090,AS077,leah,"""Musee de l Homme, Paris, France""",,,33,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000223,KH0075,AS063B,leah,"""O. Nunez del Prado, Cuzco""",,,31,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000224,KH0078,AS065B,leah,"""O. Nunez del Prado, Cuzco""",,,5,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000225,KH0094,AS081,leah,"""Musee de l Homme, Paris, France""",,,8,0.625,0.375,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000226,KH0095,AS082,leah,"""Musee de l Homme, Paris, France""",,,6,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000227,KH0107,AS094,leah,"""Museum Fur Volkerkunde, Munich, W. Germany""",Peru,,51,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000228,KH0099,AS086,leah,"""Museum fur Volkerkunde, Basel, Switzerland""",Huacho,,45,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000229,KH0059,AS048,leah,"""Museo Amano, Lima, Peru""",,,80,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000231,KH0098,AS085,leah,"""Musee d Ethnographie, Geneva, Switzerland""",,,45,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000232,KH0102,AS089,leah,"""Museum Fur Volkerkunde, Munich, W. Germany""",Peru,,35,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000233,KH0103,AS090/N2,leah,"""Museum Fur Volkerkunde, Munich, W. Germany""",Peru,,58,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000234,KH0105,AS092,leah,"""Museum Fur Volkerkunde, Munich, W. Germany""",Peru,,56,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000235,KH0047,AS036,leah,"""Museo """"Jijon y Caamano"""", Pontificia Universidad Catolica del Ecuador, Quito, Ecuador""","""Maranga, Huaca 1""",,81,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000236,KH0048,AS037,leah,"""Museo """"Jijon y Caamano"""", Pontificia Universidad Catolica del Ecuador, Quito, Ecuador""",,,82,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000241,KH0276,UR046,leah,Museo Larco,"""Pueblo Libre, Lima, Peru""",,86,0.0,0.8721,0.8721,1.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000295,KH0290,UR056A,chandra,"""Rijksmuseum fur Volkerkunde, Leiden, Holland""",,,42,0.0,0.2381,0.2381,1.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000333,KH0042,UR1034,tania,"""National Museum, Smithsonian, Washington, D.C.""",Pachacamac,,179,0.9888,0.0112,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000345,KH0055,AS044,tania,"""Museo Nacional, Lima, Peru""",,,161,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000347,KH0334,UR098,tania,Museo Temple Radicati,,,9,0.2222,0.0,0.2222,0.8571,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000349,KH0336,UR100,tania,Museo Temple Radicati,,,5,0.2,0.0,0.2,0.5,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000361,KH0061,AS050,tania,"""owner Ana Maria Soldi, Lima, Peru""",,,370,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000365,KH0106,AS093,eric,"""Museum Fur Volkerkunde, Munich, W. Germany""",,,70,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000367,KH0085,AS072,eric,,"Rancho San Juan, Ica Valley",,60,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000368,KH0084,AS071,eric,"""owner Percy Dauelsberg, Arica, Chile""",,,404,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000369,KH0079,AS066,eric,"""O. Nunez del Prado, Cuzco""",,,172,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000371,KH0080,AS067/MA029,eric,"""O. Nunez del Prado, Cuzco""",,,163,0.9939,0.0061,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000383,KH0288,UR054,eric,Private Collection: Anna Maria Soldi,,,115,0.0,0.5391,0.5391,0.1132,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000417,KH0398,UR158,eric,Museo Regional de Ica,Tambo Colorado,,25,0.0,0.28,0.28,1.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000456,KH0592,QU04,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",62,0.0,0.8065,0.8065,1.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000457,KH0593,QU05,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",57,0.0,1.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000458,KH0594,QU06,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",18,0.0,1.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000459,KH0595,QU07,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",89,0.0,1.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000460,KH0596,QU08,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",21,0.0,1.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000461,KH0597,QU09,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",160,0.0,1.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000462,KH0598,QU10,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",45,0.0,1.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000463,KH0599,QU11,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",120,0.0,1.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000464,KH0601,QU13,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",0,1.0,1.0,1.0,0.0,empty_no_cords,2.1.0,10.5281/zenodo.18025748
+1000465,KH0602,QU14,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",0,1.0,1.0,1.0,0.0,empty_no_cords,2.1.0,10.5281/zenodo.18025748
+1000466,KH0603,QU15,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",0,1.0,1.0,1.0,0.0,empty_no_cords,2.1.0,10.5281/zenodo.18025748
+1000467,KH0604,QU16,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",0,1.0,1.0,1.0,0.0,empty_no_cords,2.1.0,10.5281/zenodo.18025748
+1000468,KH0605,QU17,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",0,1.0,1.0,1.0,0.0,empty_no_cords,2.1.0,10.5281/zenodo.18025748
+1000469,KH0606,QU18,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",0,1.0,1.0,1.0,0.0,empty_no_cords,2.1.0,10.5281/zenodo.18025748
+1000470,KH0607,QU19,gurton,Dallas Museum of Art,,"""Inka, Late Horizon""",0,1.0,1.0,1.0,0.0,empty_no_cords,2.1.0,10.5281/zenodo.18025748
+1000583,KH0583,HP052,julia,"Museo Nacional de Arqueologia, Antropologia e Historia del Peru",unknown,,47,1.0,0.0,1.0,0.0,pct_twist_U_ge_0.20,2.1.0,10.5281/zenodo.18025748
+1000625,KH0608,JC001,jclindaniel,Proyecto Incahuasi,Incahuasi,,36,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000626,KH0609,JC002,jclindaniel,Proyecto Incahuasi,Incahuasi,,4,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000627,KH0610,JC003,jclindaniel,Proyecto Incahuasi,Incahuasi,,8,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000628,KH0611,JC004,jclindaniel,Proyecto Incahuasi,Incahuasi,,32,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000629,KH0612,JC005,jclindaniel,Proyecto Incahuasi,Incahuasi,,193,0.0,0.0104,0.0104,0.0052,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000630,KH0613,JC006,jclindaniel,Proyecto Incahuasi,Incahuasi,,13,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000631,KH0614,JC007,jclindaniel,Proyecto Incahuasi,Incahuasi,,6,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000632,KH0615,JC008,jclindaniel,Proyecto Incahuasi,Incahuasi,,6,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000633,KH0616,JC009,jclindaniel,Proyecto Incahuasi,Incahuasi,,95,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000634,KH0617,JC010,jclindaniel,Proyecto Incahuasi,Incahuasi,,374,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000635,KH0618,JC011,jclindaniel,Proyecto Incahuasi,Incahuasi,,126,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000636,KH0619,JC012,jclindaniel,Proyecto Incahuasi,Incahuasi,,30,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000637,KH0620,JC013,jclindaniel,Proyecto Incahuasi,Incahuasi,,78,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000638,KH0621,JC014,jclindaniel,Proyecto Incahuasi,Incahuasi,,60,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000639,KH0622,JC015,jclindaniel,Proyecto Incahuasi,Incahuasi,,10,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000640,KH0623,JC016,jclindaniel,Proyecto Incahuasi,Incahuasi,,9,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000641,KH0624,JC017,jclindaniel,Proyecto Incahuasi,Incahuasi,,5,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000642,KH0625,JC018,jclindaniel,Proyecto Incahuasi,Incahuasi,,13,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000643,KH0626,JC019,jclindaniel,Proyecto Incahuasi,Incahuasi,,6,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000644,KH0627,JC020,jclindaniel,Proyecto Incahausi,Incahuasi,,4,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000645,KH0628,JC021,jclindaniel,Proyecto Incahuasi,Incahuasi,,11,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000646,KH0629,JC022,jclindaniel,Proyecto Incahuasi,Incahuasi,,24,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000647,KH0630,JC023,jclindaniel,Proyecto Incahuasi,Incahuasi,,74,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000648,KH0081,AS068/UR281,jclindaniel,"Museo Nac., Pueblo Libre","Monte de Cacatilla, Valle de Nazca",,216,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000649,KH0520,UR282,jclindaniel,"Museo Nac., Pueblo Libre","Huaca San Pedro, Armatambo",,32,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000650,KH0521,UR283,jclindaniel,"Museo Nac., Pueblo Libre","Huaca San Pedro, Armatambo",,198,0.0,0.0,0.0,0.0303,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000651,KH0522,UR284,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,22,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000652,KH0523,UR285,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,14,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000653,KH0524,UR286,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,6,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000654,KH0525,UR287,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,57,0.0,0.0,0.0,0.0351,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000655,KH0526,UR288,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,29,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000656,KH0527,UR289,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,35,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000657,KH0528,UR290,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,8,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000658,KH0529,UR291A,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,272,0.0,0.0,0.0,0.3897,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000659,KH0530,UR292A,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,56,0.0,0.0179,0.0179,0.0545,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000660,KH0531,UR293,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,4,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748
+1000661,KH0532,UR294,jclindaniel,"Museo Nac., Pueblo Libre","Armatambo, Huaca San Pedro",,5,0.0,0.0,0.0,0.0,created_by_jclindaniel,2.1.0,10.5281/zenodo.18025748

@@ -70,10 +70,17 @@ Sequential filter order in B7 (saved in [`results/excluded_khipus_okr_2.1.0.csv`
 To reproduce B7 end-to-end:
 ```bash
 pip install -r requirements.txt
-# Run notebooks/02_validations_v2.ipynb (set B7_RUN_NULLS = True in the B7 config cell to recompute all 1,000 + 1,000 null simulations via src/b7_nulls.py)
+export KHIPU_DB_PATH=data/khipu.db   # optional; auto-detects data/ or downloads Zenodo 2.1.0
+# Run notebooks/02_validations_v2.ipynb (set B7_RUN_NULLS = True in the B7 config cell to recompute all 1,000 + 1,000 null simulations in both UMAP and feature space via src/b7_nulls.py)
 ```
 
-**Limitations:** No positive control is included yet; the cause of the observed S/Z twist contrast by `CREATED_BY` in Incahuasi and Armatambo remains an open hypothesis pending confirmation from the OKR team / Jon Clindaniel.
+Key versioned outputs in `results/`:
+- `excluded_khipus_okr_2.1.0.csv` — reproducible exclusion list (`n = 189` excluded, `430` clean)
+- `table_b2_1000.csv` — `N_SIM = 1,000 + 1,000` permutation & Gaussian null models in **both** UMAP 2D and original feature space (`sil_FEAT`)
+- `table_b7_jclindaniel_sites.csv`, `table_b7_progression.csv`, `table_b7_doc_tree.csv`, `table_b7_threshold_sweep.csv`, `table_hyperparam_sweep.csv`
+- `table_sensitivity_matrix.csv`, `table_twist_by_cluster.csv` (cord-level `S/Z/U/blank` correcting v1's 85.3%), `table_missing_aware_comparison.csv`, `table_santa_valley_rv.csv`
+
+**Limitations:** No positive control is included yet; `"Inka, Late Horizon"` (`n = 18` in v1, `n = 3` in `n = 430`) comes from a single museum (Dallas Museum of Art) and cannot be evaluated independently in `n = 430`; the cause of the observed S/Z twist contrast by `CREATED_BY` in Incahuasi and Armatambo remains an open hypothesis pending confirmation from the OKR team / Jon Clindaniel.
 
 ```
 data/          khipu.db (gitignored)
