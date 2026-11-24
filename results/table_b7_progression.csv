@@ -1,0 +1,4 @@
+subset,n,k,sil_UMAP,sil_FEAT,noise_pct,cramers_v_cat,ratio_SZ_mean,ratio_SZ_var,no_td21_k,no_td21_sil_UMAP,no_td21_sil_FEAT,no_td21_noise_pct
+n=612 (v1-corregida),612,3,0.793,0.068,0.0,0.733,0.6946,0.2087,2,0.807,0.519,0.0
+n=467 (recorded <20% U),467,2,0.591,0.192,0.0,0.756,0.8942,0.0909,11,0.446,0.025,29.3
+"n=430 (recorded, no jclindaniel)",430,3,0.21,0.107,3.3,0.174,0.97,0.0258,11,0.381,-0.035,17.7

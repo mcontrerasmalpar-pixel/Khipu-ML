@@ -1,0 +1,3 @@
+mode,n,k,sil_UMAP,sil_FEAT,F1w_strat,F1i_strat
+v1-corregida (fillna=0),612,3,0.793,0.068,0.465,0.762
+missing-aware (NaN + DOC),612,4,0.65,0.198,0.582,0.9

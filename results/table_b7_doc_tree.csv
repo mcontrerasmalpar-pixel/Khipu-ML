@@ -1,0 +1,5 @@
+subset,n,k,sil_UMAP,sil_FEAT,doc_tree_d2_acc,majority,top_doc_feature
+n=619 (v1-exact),619,3,0.817,0.062,0.914,0.716,pct_twist_Ucode
+n=612 (v1-corregida),612,3,0.793,0.068,0.923,0.722,pct_twist_Ucode
+n=467 (recorded <20% U),467,2,0.591,0.192,0.912,0.916,color_rows_per_cord
+"n=430 (recorded, no jclindaniel)",430,3,0.21,0.107,0.716,0.745,pct_side_U

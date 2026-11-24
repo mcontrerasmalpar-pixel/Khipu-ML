@@ -56,13 +56,38 @@ python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Download [`khipu.db`](https://doi.org/10.5281/zenodo.18025748) into `data/`, then open `notebooks/01_pipeline_khipu.ipynb` (same notebook on [Kaggle](https://www.kaggle.com/code/macmaky/khipu-ml)).
+Download [`khipu.db`](https://doi.org/10.5281/zenodo.18025748) into `data/`, then open `notebooks/01_pipeline_khipu.ipynb` (v1, same notebook on [Kaggle](https://www.kaggle.com/code/macmaky/khipu-ml)) or `notebooks/02_validations_v2.ipynb` (v2 audit & B7).
+
+## v2 Audit & Section B7 (`jclindaniel` audit)
+
+[`notebooks/02_validations_v2.ipynb`](notebooks/02_validations_v2.ipynb) audits v1 against documentation and cataloger confounds on OKR Zenodo release **v2.1.0** ([DOI 10.5281/zenodo.18025748](https://doi.org/10.5281/zenodo.18025748)) and exports versioned summary tables to `results/`.
+
+Sequential filter order in B7 (saved in [`results/excluded_khipus_okr_2.1.0.csv`](results/excluded_khipus_okr_2.1.0.csv)):
+1. `empty_no_cords` (`n = 7`, `KH0601–KH0607`, zero cords in `cord`) → `612`
+2. `pct_twist_U_ge_0.20` (`n = 145`, $\ge 20\%$ unrecorded cord twist) → `467`
+3. `created_by_jclindaniel` (`n = 37`, treated as non-comparable twist without recoding; S↔Z cause pending confirmation from OKR / Clindaniel) → `430`
+
+To reproduce B7 end-to-end:
+```bash
+pip install -r requirements.txt
+export KHIPU_DB_PATH=data/khipu.db   # optional; auto-detects data/ or downloads Zenodo 2.1.0
+# Run notebooks/02_validations_v2.ipynb (set B7_RUN_NULLS = True in the B7 config cell to recompute all 1,000 + 1,000 null simulations in both UMAP and feature space via src/b7_nulls.py)
+```
+
+Key versioned outputs in `results/`:
+- `excluded_khipus_okr_2.1.0.csv` — reproducible exclusion list (`n = 189` excluded, `430` clean)
+- `table_b2_1000.csv` — `N_SIM = 1,000 + 1,000` permutation & Gaussian null models in **both** UMAP 2D and original feature space (`sil_FEAT`)
+- `table_b7_jclindaniel_sites.csv`, `table_b7_progression.csv`, `table_b7_doc_tree.csv`, `table_b7_threshold_sweep.csv`, `table_hyperparam_sweep.csv`
+- `table_sensitivity_matrix.csv`, `table_twist_by_cluster.csv` (cord-level `S/Z/U/blank` correcting v1's 85.3%), `table_missing_aware_comparison.csv`, `table_santa_valley_rv.csv`
+
+**Limitations:** No positive control is included yet; `"Inka, Late Horizon"` (`n = 18` in v1, `n = 3` in `n = 430`) comes from a single museum (Dallas Museum of Art) and cannot be evaluated independently in `n = 430`; the cause of the observed S/Z twist contrast by `CREATED_BY` in Incahuasi and Armatambo remains an open hypothesis pending confirmation from the OKR team / Jon Clindaniel.
 
 ```
 data/          khipu.db (gitignored)
-notebooks/     full pipeline
-src/           loader, features, utils
-outputs/       figures (gitignored)
+notebooks/     01_pipeline_khipu.ipynb (v1), 02_validations_v2.ipynb (v2 + B7)
+results/       versioned small CSV tables & exclusion list (OKR 2.1.0)
+src/           loader, features, utils, b7_nulls
+outputs/       figures & full JSON (gitignored)
 ```
 
 ## Cite
