@@ -5,9 +5,9 @@ authors:
   - family-names: Contreras
     given-names: Maria
     alias: macmaky
-    affiliation: Universidad Peruana de Ciencias Aplicadas
-url: https://github.com/mcontrerasmalpar-pixel/khipu-ml
-repository-code: https://github.com/mcontrerasmalpar-pixel/khipu-ml
+    affiliation: Disentangle Lab · Universidad Peruana de Ciencias Aplicadas
+url: https://github.com/Disentangle-Lab/Khipu-ML
+repository-code: https://github.com/Disentangle-Lab/Khipu-ML
 license: MIT
 date-released: "2026-06-30"
 preferred-citation:

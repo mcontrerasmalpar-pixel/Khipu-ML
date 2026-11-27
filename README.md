@@ -7,7 +7,7 @@ Machine learning on Inka khipus — knotted-cord records of the Inka state that 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Kaggle](https://img.shields.io/badge/Kaggle-notebook-20BEFF.svg)](https://www.kaggle.com/code/macmaky/khipu-ml)
 
-Maria Contreras · paper [arXiv:2607.00185](https://arxiv.org/abs/2607.00185) · data [Open Khipu Repository](https://doi.org/10.5281/zenodo.18025748)
+Maria Contreras ([Disentangle Lab](https://github.com/Disentangle-Lab)) · paper [arXiv:2607.00185](https://arxiv.org/abs/2607.00185) · data [Open Khipu Repository](https://doi.org/10.5281/zenodo.18025748)
 
 The pipeline turns the public OKR (619 khipus, 54,403 cords, 110,677 knots) into 27 structural features per specimen, then clusters, classifies provenance, and replicates a published Santa Valley finding — without touching the objects.
 
@@ -50,7 +50,7 @@ flowchart LR
 ## Run it
 
 ```bash
-git clone https://github.com/mcontrerasmalpar-pixel/khipu-ml.git
+git clone https://github.com/Disentangle-Lab/Khipu-ML.git
 cd khipu-ml
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
