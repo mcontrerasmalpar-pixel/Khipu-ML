@@ -1,5 +1,7 @@
 # Khipu-ml
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24619584.svg)](https://doi.org/10.5281/zenodo.24619584)
+
 Machine learning on Inka khipus — knotted-cord records of the Inka state that remain undeciphered.
 
 [![arXiv](https://img.shields.io/badge/arXiv-2607.00185-b31b1b.svg)](https://arxiv.org/abs/2607.00185)
